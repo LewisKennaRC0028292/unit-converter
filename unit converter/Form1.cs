@@ -23,6 +23,17 @@ namespace unit_converter
             {"Mm", 1e6 },
             {"Gm", 1e9 }
         };
+        Dictionary<string, double> area = new Dictionary<string, double>()
+        {
+            {"nm", 1e-9 },
+            {"µm", 1e-6 },
+            {"mm", 1e-3 },
+            {"cm", 1e-2 },
+            {"m", 1 },
+            {"km", 1e3 },
+            {"Mm", 1e6 },
+            {"Gm", 1e9 }
+        };
         public Form1()
         {
             InitializeComponent();
